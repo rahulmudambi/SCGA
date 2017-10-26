@@ -224,7 +224,7 @@ def mutation(mutation_rate,population):
     return population
 
 
-df = pd.read_csv('/home/rahul/Desktop/SC/SPECTF_New.csv')
+df = pd.read_csv('SPECTF_New.csv')
 df = df.sample(frac=1)
 #print df.head()
 A = df.as_matrix()
